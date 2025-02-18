@@ -8,7 +8,7 @@ Nome:Lincoln Alves de Oliveira
 Turma 3° Semestre ADS
 
 ### Tema
-Impacto da Pandemia no Esino 
+Impacto da Pandemia no Ensino 
 
 ### Tópicos
 1. A transição para o ensino remoto
