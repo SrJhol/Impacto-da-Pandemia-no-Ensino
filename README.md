@@ -28,3 +28,15 @@ Escrito por Lincoln Alves de Oliveira
 https://github.com/SrLinku/Impacto-da-Pandemia-no-Ensino
 
 
+CREATE TABLE Professor(
+id professor INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(100)NOT NULL UNIQUE,
+matricula VARCHAR(28)NOT NULL UNIQUE,
+departamento VARCHAR(100),
+telefone VARCHAR(20),
+titulacao VARCHAR(58),--Ex: Mestre, Doutor, Pós-Doutor
+area_atuacao VARCHAR(100),
+status BOOLEAN DEFAULT TRUE,-- TRUE: ativo, FALSE: inativo
+data_cadstro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
